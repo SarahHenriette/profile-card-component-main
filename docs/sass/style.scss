@@ -12,34 +12,34 @@ body {
         background-color: $darkCyan;
         overflow: hidden;
         position: relative;
-        height: 885px;
+        height: 753px;
         img {
             position: absolute;
         }
         .circle-top {
-            top: -46%;
-            left: -22%;
+            top: -65%;
+            left: -21%;
         }
         .circle-bottom {
-            right: -18%;
-            bottom: -68%;
+            right: -20%;
+            bottom: -80%;
         }
     }
     .main {
         background-color: #FFF;
-        width: 440px;
-        height: 443px;
+        width: 375px;
+        height: 421px;
         position: absolute;
-        top: 236px;
+        top: 168px;
         left: 0;
         right: 0;
         margin: auto;
         border-radius: 21px 21px 19px 19px;
-        box-shadow: 0px 5px 65px $darkGrayish;
+        box-shadow: 0px 5px 65px $darkGray;
         .background-main {
             background-color: $darkCyan;
             width: 100%;
-            height: 178px;
+            height: 158px;
             border-radius: 19px 19px 0 0;
             overflow: hidden;
             img {
@@ -53,12 +53,12 @@ body {
             align-items: center;
             justify-content: center;
             position: absolute;
-            top: 98px;
+            top: 94px;
             left: 0;
             right: 0;
             .contain-image-profile {
-                width: 120px;
-                height: 120px;
+                width: 105px;
+                height: 105px;
                 border-radius: 50%;
                 overflow: hidden;
                 border: 9px solid #FFF;
@@ -73,6 +73,8 @@ body {
                     line-height: 30px;
                     color: $darkGrayish;
                     font-size: 21px;
+                    margin: 10px;
+
                 }
                 p .name {
                     color: $veryDark;
@@ -86,8 +88,10 @@ body {
             }
             .hr {
                 background-color: $darkGray;
-                height: 0.1px;
+                height: 1px;
                 width: 100%;
+                margin-top: 14px;
+
             }
             .contain-infos-reseau {
                 display: flex;
