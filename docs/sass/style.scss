@@ -1,0 +1,117 @@
+@import './utilities/colors.scss';
+@import './utilities/weight.scss';
+
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+    margin: 0;
+    p {
+        font-size: 18px;
+        font-weight: $weight400;
+    }
+    .background {
+        background-color: $darkCyan;
+        overflow: hidden;
+        position: relative;
+        height: 885px;
+        img {
+            position: absolute;
+        }
+        .circle-top {
+            top: -46%;
+            left: -22%;
+        }
+        .circle-bottom {
+            right: -18%;
+            bottom: -68%;
+        }
+    }
+    .main {
+        background-color: #FFF;
+        width: 440px;
+        height: 443px;
+        position: absolute;
+        top: 236px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        border-radius: 21px 21px 19px 19px;
+        box-shadow: 0px 5px 65px $darkGrayish;
+        .background-main {
+            background-color: $darkCyan;
+            width: 100%;
+            height: 178px;
+            border-radius: 19px 19px 0 0;
+            overflow: hidden;
+            img {
+                height: 100%;
+                width: 100%;
+            }
+        }
+        .contain-main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            top: 98px;
+            left: 0;
+            right: 0;
+            .contain-image-profile {
+                width: 120px;
+                height: 120px;
+                border-radius: 50%;
+                overflow: hidden;
+                border: 9px solid #FFF;
+                background-color: #FFF;
+                img {
+                    width: 100%;
+                }
+            }
+            .contain-infos-profile {
+                p {
+                    text-align: center;
+                    line-height: 30px;
+                    color: $darkGrayish;
+                    font-size: 21px;
+                }
+                p .name {
+                    color: $veryDark;
+                    font-weight: $weight700;
+                    font-size: 21px;
+                    margin-right: 10px;
+                }
+                p .city {
+                    font-size: 15px;
+                }
+            }
+            .hr {
+                background-color: $darkGray;
+                height: 0.1px;
+                width: 100%;
+            }
+            .contain-infos-reseau {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                width: 80%;
+                height: 118px;
+                p {
+                    color: $darkGrayish;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    font-size: 14px;
+                    line-height: 25px;
+                    letter-spacing: 2px;
+                }
+                p span {
+                    color: $veryDark;
+                    font-weight: $weight700;
+                    font-size: 20px;
+                    letter-spacing: 0;
+                }
+            }
+        }
+    }
+}
+@import './media-queries/responsive.scss';

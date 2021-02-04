@@ -1,0 +1,58 @@
+@media (min-width: 0px) and (max-width: 480px) {
+    body {
+        .main {
+            .background-main {
+                height: 146px;
+            }
+            .contain-main {
+                top: 89px;
+                .contain-image-profile {
+                    width: 100px;
+                    height: 100px;
+                    border: 6px solid #FFF;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 381px) and (max-width: 480px) {
+    body {
+        .background {
+            .circle-top {
+                top: -61%;
+                left: -192%;
+            }
+            .circle-bottom {
+                right: -177%;
+                bottom: -46%;
+            }
+        }
+        .main {
+            width: 368px;
+            top: 148px;
+            height: 404px;
+        }
+    }
+}
+
+@media (min-width: 0px) and (max-width: 380px) {
+    body {
+        .background {
+            .circle-top {
+                top: -61%;
+                left: -209%;
+            }
+            .circle-bottom {
+                right: -206%;
+                bottom: -42%;
+            }
+        }
+        .main {
+            width: 332px;
+            top: 148px;
+            height: 415px;
+        }
+    }
+
+}

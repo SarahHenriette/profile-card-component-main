@@ -1,0 +1,157 @@
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  margin: 0;
+}
+body p {
+  font-size: 18px;
+  font-weight: 400;
+}
+body .background {
+  background-color: #19a2ae;
+  overflow: hidden;
+  position: relative;
+  height: 885px;
+}
+body .background img {
+  position: absolute;
+}
+body .background .circle-top {
+  top: -46%;
+  left: -22%;
+}
+body .background .circle-bottom {
+  right: -18%;
+  bottom: -68%;
+}
+body .main {
+  background-color: #FFF;
+  width: 440px;
+  height: 443px;
+  position: absolute;
+  top: 236px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border-radius: 21px 21px 19px 19px;
+  box-shadow: 0px 5px 65px #6a6f81;
+}
+body .main .background-main {
+  background-color: #19a2ae;
+  width: 100%;
+  height: 178px;
+  border-radius: 19px 19px 0 0;
+  overflow: hidden;
+}
+body .main .background-main img {
+  height: 100%;
+  width: 100%;
+}
+body .main .contain-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 98px;
+  left: 0;
+  right: 0;
+}
+body .main .contain-main .contain-image-profile {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 9px solid #FFF;
+  background-color: #FFF;
+}
+body .main .contain-main .contain-image-profile img {
+  width: 100%;
+}
+body .main .contain-main .contain-infos-profile p {
+  text-align: center;
+  line-height: 30px;
+  color: #6a6f81;
+  font-size: 21px;
+}
+body .main .contain-main .contain-infos-profile p .name {
+  color: #2d3248;
+  font-weight: 700;
+  font-size: 21px;
+  margin-right: 10px;
+}
+body .main .contain-main .contain-infos-profile p .city {
+  font-size: 15px;
+}
+body .main .contain-main .hr {
+  background-color: #969696;
+  height: 0.1px;
+  width: 100%;
+}
+body .main .contain-main .contain-infos-reseau {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  height: 118px;
+}
+body .main .contain-main .contain-infos-reseau p {
+  color: #6a6f81;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 14px;
+  line-height: 25px;
+  letter-spacing: 2px;
+}
+body .main .contain-main .contain-infos-reseau p span {
+  color: #2d3248;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 0;
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+  body .main .background-main {
+    height: 146px;
+  }
+  body .main .contain-main {
+    top: 89px;
+  }
+  body .main .contain-main .contain-image-profile {
+    width: 100px;
+    height: 100px;
+    border: 6px solid #FFF;
+  }
+}
+@media (min-width: 381px) and (max-width: 480px) {
+  body .background .circle-top {
+    top: -61%;
+    left: -192%;
+  }
+  body .background .circle-bottom {
+    right: -177%;
+    bottom: -46%;
+  }
+  body .main {
+    width: 368px;
+    top: 148px;
+    height: 404px;
+  }
+}
+@media (min-width: 0px) and (max-width: 380px) {
+  body .background .circle-top {
+    top: -61%;
+    left: -209%;
+  }
+  body .background .circle-bottom {
+    right: -206%;
+    bottom: -42%;
+  }
+  body .main {
+    width: 332px;
+    top: 148px;
+    height: 415px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
