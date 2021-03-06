@@ -10,7 +10,7 @@ body .background {
   background-color: #19a2ae;
   overflow: hidden;
   position: relative;
-  height: 753px;
+  min-height: 100vh;
 }
 body .background img {
   position: absolute;
@@ -28,10 +28,11 @@ body .main {
   width: 375px;
   height: 421px;
   position: absolute;
-  top: 168px;
+  top: 50%;
   left: 0;
   right: 0;
-  margin: auto;
+  margin: 0 auto;
+  transform: translateY(-50%);
   border-radius: 21px 21px 19px 19px;
   box-shadow: 0px 5px 65px #969696;
 }
@@ -136,7 +137,6 @@ body .main .contain-main .contain-infos-reseau p span {
   }
   body .main {
     width: 368px;
-    top: 148px;
     height: 404px;
   }
 }
@@ -151,7 +151,6 @@ body .main .contain-main .contain-infos-reseau p span {
   }
   body .main {
     width: 332px;
-    top: 148px;
     height: 415px;
   }
 }
